@@ -1,0 +1,3 @@
+# Cline
+
+OAuth: open the MCP Servers panel, choose **Remote Servers**, enter `ayinbox` as the name and `https://api.ayinbox.com/v1/mcp` as the URL, pick **Streamable HTTP**, choose **Add Server**, and sign in when the browser opens. For an API key, merge the entry in `cline_mcp_settings.json` into Cline's own `cline_mcp_settings.json` and replace `aybox_...` with your key (Cline documents no environment variable expansion), or run `cline mcp add ayinbox https://api.ayinbox.com/v1/mcp --transport http --header "Authorization: Bearer $AYINBOX_API_KEY" --yes`. Keep `"type": "streamableHttp"`: without it Cline uses the older SSE transport. Source: https://docs.cline.bot/mcp/configuring-mcp-servers

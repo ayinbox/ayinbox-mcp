@@ -1,0 +1,3 @@
+# VS Code (GitHub Copilot agent mode)
+
+Copy `mcp.json` to `.vscode/mcp.json` in a workspace, or open your user configuration with the command **MCP: Open User Configuration** and merge the `ayinbox` entry. From a shell, `code --add-mcp '{"name":"ayinbox","type":"http","url":"https://api.ayinbox.com/v1/mcp"}'` adds it to your user profile. VS Code registers itself with AY Inbox and opens the browser to sign in on the first connection. For an API key use `mcp.api-key.json`: VS Code asks for the key once, stores it as a secret, and fills `${input:ayinbox-api-key}` with it. Source: https://code.visualstudio.com/docs/agents/reference/mcp-configuration

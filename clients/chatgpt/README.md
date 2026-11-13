@@ -1,0 +1,3 @@
+# ChatGPT
+
+Where your ChatGPT plan offers developer mode, open https://chatgpt.com/plugins, choose **+** and **Add custom MCP server**, give it a name and description, paste `https://api.ayinbox.com/v1/mcp` as the server URL, choose **OAuth** for authentication, confirm, and choose **Create as a plugin**. Sign in to AY Inbox when ChatGPT opens the browser. ChatGPT documents no way to send an API key or other header to a custom MCP server, so there is no key form and no file to copy here. To use a key from your own code with OpenAI models, see [`../openai-agents/`](../openai-agents/). Source: https://developers.openai.com/api/docs/guides/developer-mode

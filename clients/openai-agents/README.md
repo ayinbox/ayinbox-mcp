@@ -1,0 +1,3 @@
+# OpenAI Agents SDK and Responses API
+
+`agent.py` connects the OpenAI Agents SDK (Python, `openai-agents`) to AY Inbox over streamable HTTP with an API key from `AYINBOX_API_KEY`, narrowed to the `inbox` toolset. `responses-mcp-tool.json` is the remote MCP tool entry for the `tools` array of a Responses API request: OpenAI's servers call AY Inbox for you, and `require_approval: "always"` makes each call wait for your approval. The API does not store the header, so your code sends the key with every request; fill it in from your environment, never from a committed file. Sources: https://openai.github.io/openai-agents-python/mcp/ and https://developers.openai.com/api/docs/guides/tools-connectors-mcp

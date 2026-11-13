@@ -1,0 +1,3 @@
+# Claude Desktop with an API key
+
+Use this only when you want an API key instead of the OAuth connector described in [`../claude/`](../claude/). Merge `claude_desktop_config.json` into Claude Desktop's own `claude_desktop_config.json` (Settings > Developer > Edit Config), replace `aybox_...` with your key, and restart Claude Desktop. It runs [`mcp-remote`](https://github.com/punkpeye/mcp-remote), a third-party npm bridge, so it needs Node.js. The key sits in the file in plain text because Claude Desktop passes `env` values as written; keep the file private. The header is written as `Authorization:${AYINBOX_AUTH}` with no space around the colon, as the bridge's README asks, because some clients mangle a space inside an argument.

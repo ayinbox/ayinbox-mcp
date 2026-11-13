@@ -1,0 +1,11 @@
+extensions:
+  ayinbox:
+    type: streamable_http
+    name: ayinbox
+    enabled: true
+    uri: https://api.ayinbox.com/v1/mcp
+    headers:
+      Authorization: "Bearer ${AYINBOX_API_KEY}"
+    env_keys:
+      - AYINBOX_API_KEY
+    timeout: 300

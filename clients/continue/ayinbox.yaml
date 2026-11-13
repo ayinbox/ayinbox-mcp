@@ -1,0 +1,8 @@
+name: AY Inbox
+version: 1.0.0
+schema: v1
+mcpServers:
+  - name: AY Inbox
+    type: streamable-http
+    url: https://api.ayinbox.com/v1/mcp
+    apiKey: ${{ secrets.AYINBOX_API_KEY }}

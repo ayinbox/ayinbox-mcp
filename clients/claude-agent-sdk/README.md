@@ -1,0 +1,3 @@
+# Claude Agent SDK
+
+`agent.ts` (TypeScript, `@anthropic-ai/claude-agent-sdk`) and `agent.py` (Python, `claude-agent-sdk`) connect an agent to AY Inbox with an API key from `AYINBOX_API_KEY`. The SDK runs no interactive OAuth sign-in: an OAuth server shows up as needing authentication, so code that runs on its own uses an API key. `allowedTools: ["mcp__ayinbox__*"]` lets the agent call the AY Inbox tools without asking; narrow it to the tools you want, and give the key only the scopes it needs (the **Agent: read and draft** preset for a model that reads mail). Source: https://code.claude.com/docs/en/agent-sdk/mcp

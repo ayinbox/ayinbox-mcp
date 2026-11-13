@@ -1,0 +1,19 @@
+{
+  "inputs": [
+    {
+      "type": "promptString",
+      "id": "ayinbox-api-key",
+      "description": "AY Inbox API key",
+      "password": true
+    }
+  ],
+  "servers": {
+    "ayinbox": {
+      "type": "http",
+      "url": "https://api.ayinbox.com/v1/mcp",
+      "headers": {
+        "Authorization": "Bearer ${input:ayinbox-api-key}"
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+# GitHub Copilot CLI
+
+Merge `mcp-config.json` into `~/.copilot/mcp-config.json`, start `copilot`, and run `/mcp auth ayinbox` to sign in in the browser. For an API key, the simplest form is the command, which your shell expands: `copilot mcp add --transport http --header "Authorization: Bearer $AYINBOX_API_KEY" ayinbox https://api.ayinbox.com/v1/mcp`. `mcp-config.api-key.json` is the same entry by hand; replace `aybox_...` with your key, because the Copilot CLI docs do not show the syntax for an environment variable inside a header. Source: https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/add-mcp-servers

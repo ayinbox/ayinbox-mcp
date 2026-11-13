@@ -1,0 +1,11 @@
+{
+  "name": "ayinbox",
+  "version": "1.0.0",
+  "description": "Cold email from your agent: contact lists, campaigns, campaign brains, reply drafts and a CRM.",
+  "mcpServers": {
+    "ayinbox": {
+      "httpUrl": "https://api.ayinbox.com/v1/mcp"
+    }
+  },
+  "contextFileName": "skills/ayinbox/SKILL.md"
+}

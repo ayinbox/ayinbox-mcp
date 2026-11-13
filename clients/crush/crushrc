@@ -1,0 +1,2 @@
+# OAuth: Crush registers itself with AY Inbox and opens the browser to sign in
+mcp add ayinbox --type http --url "https://api.ayinbox.com/v1/mcp" --oauth true

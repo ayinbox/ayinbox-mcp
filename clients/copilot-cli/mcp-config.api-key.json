@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "ayinbox": {
+      "type": "http",
+      "url": "https://api.ayinbox.com/v1/mcp",
+      "headers": {
+        "Authorization": "Bearer aybox_..."
+      },
+      "tools": [
+        "*"
+      ]
+    }
+  }
+}

@@ -1,0 +1,7 @@
+extensions:
+  ayinbox:
+    type: streamable_http
+    name: ayinbox
+    enabled: true
+    uri: https://api.ayinbox.com/v1/mcp
+    timeout: 300

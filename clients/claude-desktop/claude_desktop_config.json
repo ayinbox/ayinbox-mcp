@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "ayinbox": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://api.ayinbox.com/v1/mcp",
+        "--header",
+        "Authorization:${AYINBOX_AUTH}"
+      ],
+      "env": {
+        "AYINBOX_AUTH": "Bearer aybox_..."
+      }
+    }
+  }
+}

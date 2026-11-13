@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "ayinbox": {
+      "type": "streamableHttp",
+      "url": "https://api.ayinbox.com/v1/mcp",
+      "headers": {
+        "Authorization": "Bearer aybox_..."
+      },
+      "disabled": false,
+      "autoApprove": []
+    }
+  }
+}

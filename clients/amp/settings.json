@@ -1,0 +1,7 @@
+{
+  "amp.mcpServers": {
+    "ayinbox": {
+      "url": "https://api.ayinbox.com/v1/mcp"
+    }
+  }
+}

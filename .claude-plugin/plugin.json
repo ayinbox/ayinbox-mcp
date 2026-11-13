@@ -1,0 +1,10 @@
+{
+  "name": "ayinbox",
+  "version": "1.0.0",
+  "description": "Connect Claude Code to AY Inbox: build contact lists, draft campaigns and campaign brains, read replies and draft answers, track deals.",
+  "author": { "name": "AY Inbox", "url": "https://ayinbox.com" },
+  "homepage": "https://ayinbox.com",
+  "repository": "https://github.com/ayinbox/ayinbox-mcp",
+  "license": "MIT",
+  "keywords": ["cold-email", "email", "outreach", "crm", "mcp"]
+}

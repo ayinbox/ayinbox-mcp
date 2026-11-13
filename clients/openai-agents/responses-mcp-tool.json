@@ -1,0 +1,9 @@
+{
+  "type": "mcp",
+  "server_label": "ayinbox",
+  "server_url": "https://api.ayinbox.com/v1/mcp?toolsets=inbox",
+  "headers": {
+    "Authorization": "Bearer aybox_..."
+  },
+  "require_approval": "always"
+}

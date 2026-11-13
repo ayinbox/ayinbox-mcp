@@ -1,0 +1,11 @@
+{
+  "name": "ayinbox",
+  "owner": { "name": "AY Inbox", "url": "https://ayinbox.com" },
+  "plugins": [
+    {
+      "name": "ayinbox",
+      "source": "./",
+      "description": "Connect Claude Code to AY Inbox, with the agent skill."
+    }
+  ]
+}
