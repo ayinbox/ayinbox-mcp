@@ -1,0 +1,47 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.ayinbox/ayinbox",
+  "title": "AY Inbox",
+  "description": "Cold email from your agent: contact lists, campaigns, campaign brains, reply drafts and a CRM.",
+  "version": "1.0.0",
+  "websiteUrl": "https://ayinbox.com",
+  "repository": {
+    "url": "https://github.com/ayinbox/ayinbox-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://ayinbox.com/assets/logo.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    },
+    {
+      "src": "https://ayinbox.com/assets/mark.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": ["any"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.ayinbox.com/v1/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Optional. Leave unset to sign in with OAuth in the browser. For an API key, send Bearer followed by the key (it starts with aybox_).",
+          "isRequired": false,
+          "isSecret": true,
+          "value": "Bearer {api_key}",
+          "variables": {
+            "api_key": {
+              "description": "AY Inbox API key from Settings > API keys in the dashboard",
+              "isRequired": true,
+              "isSecret": true,
+              "placeholder": "aybox_..."
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

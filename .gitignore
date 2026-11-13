@@ -1,0 +1,12 @@
+# Registry signing keys and login tokens must never be committed
+key.pem
+*.pem
+key.hex
+mcp-registry-auth
+.mcpregistry_*
+.env
+.env.*
+node_modules/
+__pycache__/
+.venv/
+.DS_Store
