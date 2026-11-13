@@ -6,7 +6,7 @@ AY Inbox is a hosted cold email platform: it sends cold email at a paced daily v
 - **Protocol versions:** `2025-11-25`, `2025-06-18`, `2025-03-26`
 - **Sign in with OAuth 2.1:** add the URL with no key. The client finds the sign-in on its own (a `401` challenge, protected-resource metadata, dynamic client registration, PKCE), you sign in at app.ayinbox.com and approve the scopes. No key to copy.
 - **Or use an API key:** create one in the dashboard under **Settings > API keys** (it starts with `aybox_` and is shown once) and send `Authorization: Bearer aybox_...`. The examples here read it from `AYINBOX_API_KEY`.
-- **Official MCP Registry name:** `com.ayinbox/ayinbox`
+- **Official MCP Registry:** [`com.ayinbox/ayinbox`](https://registry.modelcontextprotocol.io/v0/servers?search=com.ayinbox/ayinbox)
 - **Access:** Access to the hosted service is invite only for now: ask at [team@ayinbox.com](mailto:team@ayinbox.com).
 - **Agent guide:** [ayinbox.com/skill.md](https://ayinbox.com/skill.md)
 
